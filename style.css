@@ -1,0 +1,94 @@
+/*
+Design By Leonid Velinov
+https: //github.com/velinovleonid
+https: //linktr.ee/velinovleonid
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    background-image: url("WhiteBlack.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+}
+textarea {
+    width: 95%; 
+    max-width: 100%; 
+    height: 100px; 
+    max-height: 200px; 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    overflow-y: auto; 
+    resize: vertical; 
+}
+button[type="submit"] {
+    border: 2px #f9f9f9;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #333;
+    border: 2px;
+    border-color: #fff;
+    color: #fff;
+    transition: all .35s;
+}
+button {
+
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    /* added a light gray background color */
+    transition: background-color 0.2s ease;
+    /* added a transition effect */
+}
+
+button:hover {
+    background-color: #ccc;
+    /* changed the hover background color to a darker gray */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* added a box shadow effect */
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+button:active {
+    background-color: #aaa;
+    /* changed the active background color to a darker gray */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    /* added a box shadow effect */
+}
